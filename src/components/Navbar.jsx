@@ -11,11 +11,11 @@ export default function Navbar() {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
             </label>
             <ul tabIndex={0} className="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-              <li><Link to='/'>Homepage</Link></li>
-              <li><Link to='/asd'>Portfolio</Link></li>
-              <li><Link to=''>About</Link></li>
+              <li><Link to='/brands'>Brand</Link></li>
+              <li><Link to='/categories'>Category</Link></li>
+              <li><Link to='/banks'>Bank</Link></li>
               <li>
-                <Link to="/login">Login</Link>
+                <Link to="/vehicles">Vehicle</Link>
               </li>
             </ul>
           </div>
