@@ -37,7 +37,7 @@ export default function VechicleIndex() {
     <div>
       <div className="flex items-center justify-between">
         <p className="text-2xl">List Vehicles</p>
-        <Link to={'/vehiclesCreate'} className="bg-gray-200 btn btn-ghost"><i class="fa-solid fa-circle-plus mr-1"></i>Create</Link>
+        <Link to={'/vehiclesCreate'} className="bg-gray-200 btn btn-ghost"><i className="fa-solid fa-circle-plus mr-1"></i>Create</Link>
       </div>
       <div className="my-5 overflow-x-auto">
         <table className="table w-full">

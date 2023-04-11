@@ -37,7 +37,7 @@ export default function BankIndex() {
       <div className="flex items-center justify-between">
         <p className="text-2xl">List Banks</p>
         <Link to={'/banksCreate'} className="bg-gray-200 btn btn-ghost">
-          <i class="fa-solid fa-circle-plus mr-1"></i>  Create
+          <i className="fa-solid fa-circle-plus mr-1"></i>  Create
         </Link>
       </div>
       <div className="my-5 overflow-x-auto">
@@ -60,7 +60,7 @@ export default function BankIndex() {
                     <td className='text-center'>{bank.no_rek}</td>
                     <td className='text-center'>
                       <div className="flex items-center justify-center gap-2">
-                        <Link to={'/banks/'+bank.id} className="text-black bg-yellow-400 border-0 hover:bg-yellow-500 btn">Edit</Link>
+                        <Link to={'/banks/' + bank.id} className="text-black bg-yellow-400 border-0 hover:bg-yellow-500 btn">Edit</Link>
                         <button onClick={() => handleModal(bank.id)} className="bg-red-500 border-0 hover:bg-red-600 btn ">Delete</button>
                       </div>
                     </td>
