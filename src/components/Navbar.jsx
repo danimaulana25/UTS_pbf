@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/image/sc-logo.png';
 
 export default function Navbar() {
   return (
@@ -21,6 +22,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="navbar-center">
+          <img src={Logo} alt="React Logo" width={70} height={70} />
           <Link to={'/'} className="text-xl normal-case btn btn-ghost">Shop Cars</Link>
         </div>
         <div className="navbar-end">

@@ -28,8 +28,6 @@ export default function Sidebar() {
                 <i className="text-3xl fa-solid fa-car"></i>
               </Link>
             </li>
-
-
           </ul>
         </div>
       </div>
